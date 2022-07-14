@@ -3,7 +3,8 @@
     <nav>
         <router-link to="/" >Acceuil</router-link> |
         <router-link to="/Cocktails">Cocktails</router-link> |
-        <router-link to="/Contact">Contact</router-link>
+        <router-link to="/Contact">Contact</router-link>|
+        <router-link to="/admin/Dashboard">admin</router-link>
     </nav>
 
 </template>

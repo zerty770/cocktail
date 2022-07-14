@@ -5,9 +5,15 @@
 </template>
 
 <script>
-    export default {
-        name:'UserIndex'
-    }
+import {userService } from '@/_service'
+export default {
+    name:'UserIndex',
+    mounted() {   
+    userService.getAllUsers()
+        .then(res => console.log(res))
+        .catch(err => console.log(err))
+    },
+}
 </script>
 
 <style>

@@ -8,6 +8,7 @@ import UserAdd from '@/views/admin/User/UserAdd.vue'
 import UserEdit from '@/views/admin/User/UserEdit.vue'
 import UserIndex from '@/views/admin/User/UserIndex.vue'
 
+
 export{
     AdminLayout, Dashboard , CocktailEdit, CocktailIndex , UserAdd ,UserEdit ,UserIndex
 }

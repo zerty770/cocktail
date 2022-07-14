@@ -1,14 +1,12 @@
 <template>
     <div>
-        User edit Works!
-        <div>{{ id }}</div>
+        Cocktails add Works!
     </div>
 </template>
 
 <script>
     export default {
-        name:'UserEdit',
-        props:['id'],
+        name:'CocktailsAdd'
     }
 </script>
 
