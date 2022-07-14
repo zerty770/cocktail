@@ -8,7 +8,7 @@ import Login from '@/views/auth/login'
 
 import {authGuard} from '@/_helpers/auth-guard.js'
 
-//localStorage.setItem('token', 'marcel')
+localStorage.setItem('token', 'marcel')
 
 
 const routes = [

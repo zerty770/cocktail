@@ -1,9 +1,12 @@
 <template>
     <div>
         <ul>
-            <li>1</li>
-            <li>2</li>
-            <li> <router-link to="/admin/users/Edit/12">User12</router-link></li>
+            <li><router-link to='/'>Accueil</router-link></li>
+            <li>&nbsp;</li>
+            <li><router-link to='/admin/dashboard'>Dashboard</router-link></li>
+            <li>&nbsp;</li>
+            <li><router-link to='/admin/users/index'>User list</router-link></li>
+            <li><router-link to='/admin/users/add'>User add</router-link></li>
         </ul>
     </div>
 </template>
