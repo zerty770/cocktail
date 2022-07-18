@@ -1,14 +1,14 @@
-import AdminLayout from '@/views/admin/Layout.vue'
-import Dashboard from '@/views/admin/Dashboard'
+import gerantLayout from '@/views/gerant/Layout.vue'
 
-import CocktailIndex from '@/views/admin/Cocktails/CocktailIndex.vue'
-import CocktailEdit  from '@/views/admin/Cocktails/CocktailEdit.vue'
 
-import UserAdd from '@/views/admin/User/UserAdd.vue'
-import UserEdit from '@/views/admin/User/UserEdit.vue'
-import UserIndex from '@/views/admin/User/UserIndex.vue'
+import utilisateurAdd from '@/views/gerant/utilisateur/utilisateurAdd.vue'
+import utilisateurIndex from '@/views/gerant/utilisateur/utilisateurIndex.vue'
+
+import articleAdd from '@/views/gerant/article/articleAdd.vue'
+import articleEdit from '@/views/gerant/article/articleEdit.vue'
+import articleIndex from '@/views/gerant/article/articleIndex.vue'
 
 
 export{
-    AdminLayout, Dashboard , CocktailEdit, CocktailIndex , UserAdd ,UserEdit ,UserIndex
+    gerantLayout,  CocktailEdit, CocktailIndex , articleAdd,  articleEdit,  articleIndex, utilisateurAdd, utilisateurIndex
 }

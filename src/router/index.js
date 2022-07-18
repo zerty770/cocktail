@@ -30,13 +30,13 @@ const routes = [
     component: Admin.AdminLayout,
     children:[
       {path: 'dashboard', name:'Dashboard', component: Admin.Dashboard },
-      {path: 'users/Index', name:'UserIdex', component: Admin.UserIndex },
-      {path: 'users/Edit/:id(\\d+)', name:'UserEdit', component: Admin.UserEdit, props: true},
+      {path: 'users/Index', name:'uIdex', component: Admin.UserIndex },
+      {path: 'users/Edit/:id(\\d+)', name:'uEdit', component: Admin.UserEdit, props: true},
       {path: 'users/add', name:'UserAdd', component:Admin.UserAdd },
 
-      {path: 'cocktails/Index', name:'CocktailIdex', component: Admin.CocktailIndex },
-      {path: 'cocktails/Edit', name:'CocktailEdit', component: Admin.CocktailEdit },
-      {path:'/:pathMatch(.*)*', redirect: '/admin/dashboard'}
+      { path: 'cocktails/index', name: 'cList', component: Admin.CocktailIndex },
+      { path: 'cocktails/edit/:id(\\d+)?', name:'cEdit', component: Admin.CocktailEdit, props: true },
+      { path: '/:pathMatch(.*)*', redirect: '/admin/dashboard' }
     ]
   },
   {
